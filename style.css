@@ -151,12 +151,42 @@ a {
     margin-top: 10px;
 }
 
+.action {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.action-box {
+    padding: 25px 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    border-radius: 5px;
+}
 
+.action-text h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
 
+.action-text h6 {
+    color: white;
+    font-weight: 100;
+}
 
-
-
+.action-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 150px;
+}
 
 
 
@@ -164,5 +194,5 @@ a {
     background-color: #1F2937;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 30px;
 }
