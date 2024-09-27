@@ -80,10 +80,10 @@ a {
 }
 
 .main img {
-    width: 100vh;
+    width: 500px;
     height: 300px;
     object-fit: cover;
-    object-position: 100% 25%;
+    object-position: 100% 28%;
 }
 
 .main button {
@@ -95,4 +95,50 @@ a {
     border-radius: 5px;
     width: 100px;
 
+}
+
+.gallery {
+    padding: 50px 150px;
+    background-color: white;
+    text-align: center;
+}
+
+.gallery h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.gallery-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.gallery-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0 0%;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.img-desc {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
