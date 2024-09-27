@@ -130,6 +130,30 @@ a {
     font-size: 20px;
 }
 
+.quote {
+    padding: 1px 150px;
+    background-color: #e5e7eb;
+    padding-bottom: 50px;
+}
+
+.quote h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
 
 
 
